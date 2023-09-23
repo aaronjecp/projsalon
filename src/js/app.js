@@ -339,7 +339,7 @@ function mostrarResumen() {
     fechaCita.innerHTML = `<span>Fecha:</span> ${fechaFormateada}`;
     
     const horaCita = document.createElement('P');
-    horaCita.innerHTML = `<span>Hora:</span> ${hora} Horas`;
+    horaCita.innerHTML = `<span>Hora--:</span> ${hora} Horas`;
 
     // Boton para reservar la cita
 
